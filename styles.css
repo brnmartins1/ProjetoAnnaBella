@@ -1,0 +1,62 @@
+.capa{
+    width: 950px;
+    border: 0px;
+}
+
+
+/* Imagem de fundo */
+body{
+    background-image:url(imgs/fundo.png);
+    
+}
+
+h2{
+    color: rgb(194, 196, 174);
+}
+img{
+    border: solid 10px;
+    border-color: rgb(194, 196, 174);
+}
+p{
+    font-size: 19px;
+    
+}
+
+h3{
+    text-align: center;
+}
+/* Barra de navegação */
+.navbar{
+    justify-content: center;
+    width: 950px;
+    background-color: rgb(194, 196, 174);
+    overflow: hidden;  
+}
+/* Estilos dos links na barra de navegação */
+.navbar a{
+    float: left;
+    font: 20px sans-serif ;
+    text-decoration: none;
+    padding: 14px 16px;
+    
+}
+/* Muda a cor dos links quando passa o ponteiro do mouse por cima */
+.navbar a:hover{
+    background-color:  rgb(246, 255, 208);
+    color: black;
+    
+}
+/* Destaca a pagina ativa */
+.navbar a.active{
+    color: black;
+    background-color: rgb(247, 236, 224);
+    padding: 14px ;
+    
+}
+
+.conteudo{
+    width: 923px;
+    background-color: rgb(247, 236, 224);
+    padding: 14px;
+}
+
